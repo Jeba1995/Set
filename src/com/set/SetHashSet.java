@@ -14,7 +14,11 @@ public static void main(String[] args) {
 	s.add(60);
 	s.add(70);
 	System.out.println(s);
+<<<<<<< HEAD
 	boolean contains = s.contains(20);
+=======
+	boolean contains = s.contains(10);
+>>>>>>> 4aae54f9d6e940bff6d4348c5b8b5b760fbbeb87
 	System.out.println(contains);
 	Set<Integer> s1=new HashSet<>();
 	s1.add(100);
